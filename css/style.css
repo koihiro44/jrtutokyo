@@ -1060,6 +1060,7 @@ footer small a {
   margin-top: 1.6rem;
   margin-bottom: 1.6rem;
   padding: 0;
+  text-indent: 1em;
 }
 
 .negoti dl {
@@ -1155,19 +1156,23 @@ footer small a {
   text-indent: -6.4rem;
 }
 
-/*「交渉の対話」<b>でのくくりパターン*/
+/*「交渉の対話」<p>のパターン*/
 .dis {
   margin-left: 4.8rem;
-  margin-bottom: 3.2rem;
+  margin-bottom: 1.6rem;
+  padding-left: 3.2rem;
 }
 
 .dis p {
-  padding-left: 3.6rem;
-  text-indent: -3.6rem;
+  padding-left: 4.8rem;
+  margin-bottom: 0.8rem;
+  text-indent: -5.6rem;
+  line-height: 2.4rem
 }
 
-.dis b {
+.bo {
   padding-right: 0.8rem;
+  font-weight: bold;
 }
 
 /*見解
