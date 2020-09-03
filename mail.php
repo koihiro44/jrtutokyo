@@ -67,7 +67,7 @@ $userMail = 1;
 $BccMail = "";
 
 // 管理者宛に送信されるメールのタイトル（件名）
-$subject = "ホームページの問い合わせ";
+$subject = "ホームページのお問い合わせ";
 
 // 送信確認画面の表示(する=1, しない=0)
 $confirmDsp = 1;
@@ -110,7 +110,7 @@ $dsp_name = 'お名前';
 //自動返信メールの冒頭の文言 ※日本語部分のみ変更可
 $remail_text = <<< TEXT
 
-問い合わせありがとうございました。
+お問い合わせありがとうございました。
 早急にご返信致しますので今しばらくお待ちください。
 
 送信内容は以下になります。
@@ -474,9 +474,9 @@ function mailToAdmin($arr,$subject,$mailFooterDsp,$mailSignature,$encode,$confir
 	$adminBody.="送信者のIPアドレス：".@$_SERVER["REMOTE_ADDR"]."\n";
 	$adminBody.="送信者のホスト名：".getHostByAddr(getenv('REMOTE_ADDR'))."\n";
 	if($confirmDsp != 1){
-		$adminBody.="問い合わせのページURL：".@$_SERVER['HTTP_REFERER']."\n";
+		$adminBody.="お問い合わせのページURL：".@$_SERVER['HTTP_REFERER']."\n";
 	}else{
-		$adminBody.="問い合わせのページURL：".@$arr['httpReferer']."\n";
+		$adminBody.="お問い合わせのページURL：".@$arr['httpReferer']."\n";
 	}
 	if($mailFooterDsp == 1) $adminBody.= $mailSignature;
 	return mb_convert_encoding($adminBody,"JIS",$encode);
