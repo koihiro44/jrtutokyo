@@ -1422,7 +1422,7 @@ img.sfl {
   margin: 10px 15px 10px 0;
 }
 /* 非表示 */
-img.image-vw {
+.image-vw {
   display: none;
 }
 
