@@ -1783,7 +1783,7 @@ span.bold {
     /* 画面幅の30%の幅で画像を表示 */
     .image-vw {
       display: block;
-      width : 30vw ; 
+      width : 40vw ; 
     }
     /* 非表示 */
     .pc {
