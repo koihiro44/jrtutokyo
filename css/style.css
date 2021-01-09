@@ -541,16 +541,16 @@ ul.ddmenu ul li a:hover {
 
 #notice dd {
   padding-left: 8.0rem;
-  margin-bottom: 0.8rem;
+  margin-bottom: 0rem;
 }
 #notice ol{
   margin: 0;
-  padding-left: 2.4rem;
+  padding: 0,0,0,2.4rem;
   list-style-type: decimal;
 }
 #notice ul{
   margin: 0;
-  padding-left: 2.4rem;
+  padding: 0,0,0,2.4rem;
   list-style-type: disc;
 }
 /* トップページ#mainの特集コーナー
