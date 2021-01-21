@@ -1429,6 +1429,9 @@ img.sfl {
 .image-vw {
   display: none;
 }
+.mb {
+  display: none;
+}
 
 .cle {
   clear: both
