@@ -1783,10 +1783,10 @@ span.bold {
     .sh {
       display: block;
     }
-    /* 画面幅の30%の幅で画像を表示 */
+    /* 画面幅の50%の幅で画像を表示 */
     .image-vw {
       display: block;
-      width : 40vw ; 
+      width : 50vw ; 
     }
     /* 非表示 */
     .pc {
